@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="styles_checkout.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Food Website</div>
+    <div id="nav-toggle" class="nav-toggle">
+      <i class="ri-menu-line"></i>
+    </div>
+    <ul class="nav-list">
+      <li><a href="explore.html">Menu</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="checkout.html">Cart <span id="cart-count">0</span></a></li>
+    </ul>
+  </nav>
+
+  <div class="checkout-container">
+    <h1>Checkout</h1>
+    <div class="checkout-items">
+      <!-- Checkout items will be displayed here -->
+    </div>
+    <div class="checkout-total">
+      <h2>Total: $0.00</h2>
+      <button class="btn checkout-btn">Proceed to Payment</button>
+    </div>
+  </div>
+
+  <script src="script_checkout.js" defer></script>
+</body>
+</html>
